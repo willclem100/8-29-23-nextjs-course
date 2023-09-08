@@ -27,6 +27,13 @@
       "priority": "high",
       "user_email": "mario@netninja.dev",
       "id": "lsdAjLo"
+    },
+    {
+      "title": "Test ticket 2",
+      "body": "blah blah blah",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev",
+      "id": "YTkQflO"
     }
   ]
 }
