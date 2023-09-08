@@ -1,6 +1,17 @@
 export const dynamicParams = true
 import { notFound } from "next/navigation";
 
+export async function generateMetadata({ params }) {
+  const id = params.id;
+
+  const res = await fetch(`http://localhost:4000/tickets/${id}`);
+  const ticket = await res.json();
+  
+  return {
+    title: `Dojo Helpdesk | ${ticket.title}`
+  }
+}
+
 // getStaticParams speeds up static rendering by pre-rendering all possible paths
 export async function getStaticParams() {
   const res = await fetch('http://localhost:4000/tickets');
