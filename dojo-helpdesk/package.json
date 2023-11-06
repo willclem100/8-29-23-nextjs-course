@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.7.4",
-    "@supabase/supabase-js": "^2.33.2",
+    "@supabase/supabase-js": "^2.38.4",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.9",
-    "json-server": "^0.17.3",
+    "json-server": "^0.17.4",
     "next": "^13.4.9",
     "postcss": "8.4.29",
     "react": "18.2.0",
